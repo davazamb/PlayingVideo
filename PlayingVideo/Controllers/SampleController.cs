@@ -1,5 +1,4 @@
-﻿using PlayingVideo.CustomResult;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,12 +6,12 @@ using System.Web.Mvc;
 
 namespace PlayingVideo.Controllers
 {
-    public class VideoController : Controller
+    public class SampleController : Controller
     {
-        // GET: Video
+        // GET: Sample
         public ActionResult Index()
         {
-            return new VideoResult();
+            return View();
         }
     }
 }
